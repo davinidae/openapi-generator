@@ -13,7 +13,7 @@ export const routes = new RouterService(
     {
       method: "POST",
       path: "/path",
-      handler: (event: APIGatewayProxyEvent) => {
+      handler: async function (event: APIGatewayProxyEvent) {
         return new ResponseApi(
           201,
           JSON.stringify({
