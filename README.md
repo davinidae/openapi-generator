@@ -4,7 +4,6 @@ Usage
 
 ```typescript
 // routes.ts -> MODULE
-
 import { RouterService } from "./router.service";
 import { APIGatewayProxyEvent } from "aws-lambda";
 
