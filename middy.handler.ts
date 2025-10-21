@@ -22,7 +22,7 @@ type LambdaEvent = APIGatewayProxyEvent | S3ObjectCreatedNotificationEvent;
 
 type RouteType = RouteModel & Route<APIGatewayProxyEvent, ResponseApi>;
 
-class ResponseApi {
+export class ResponseApi {
   constructor(
     public readonly statusCode: number,
     public readonly body?: string
