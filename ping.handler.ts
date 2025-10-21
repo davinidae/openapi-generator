@@ -1,4 +1,4 @@
-import { ResponseApi } from "../models";
+import { ResponseApi } from "./middy.handler";
 
 export async function pingHandler(): Promise<ResponseApi> {
   console.log("Ping handler called");
