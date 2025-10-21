@@ -1,6 +1,10 @@
 import { envHandler } from "./env.handler";
 import { pingHandler } from "./ping.handler";
-import { RouterOptionsType, RouteType } from "src/types";
+import {RouteType} from "./middy.handler"
+
+type RouterOptionsType = {
+  apiName: string;
+};
 
 export class RouterService {
   routes: RouteType[];
