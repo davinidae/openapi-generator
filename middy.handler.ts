@@ -20,7 +20,7 @@ import { RouteModel } from "./openapi.generator.ts";
 
 type LambdaEvent = APIGatewayProxyEvent | S3ObjectCreatedNotificationEvent;
 
-type RouteType = RouteModel & Route<APIGatewayProxyEvent, ResponseApi>;
+export type RouteType = RouteModel & Route<APIGatewayProxyEvent, ResponseApi>;
 
 export class ResponseApi {
   constructor(
