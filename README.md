@@ -1,4 +1,4 @@
-# openapi-generator
+# AWS OpenAPI Generator using Middy and Lambdas
 
 Usage
 
