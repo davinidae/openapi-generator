@@ -1,4 +1,4 @@
-import { ResponseApi } from "../models";
+import { ResponseApi } from "./middy.handler";
 
 export async function checkEnvHandler(): Promise<ResponseApi> {
   console.log("Check env handler called");
